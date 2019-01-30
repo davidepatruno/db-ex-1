@@ -1,0 +1,46 @@
+Database
+
+Nome tabella players
+colonne
+id - primary key / not null / auto increment /unique
+cod registro internazionale giocatori ?? - varchar(..) / not null / unique
+cognome - varchar(20)/ not null /
+nome - varchar(20) / not null /
+età - tinyint / not null
+nazionalità di nascita - varchar(20) / not null
+nazionalità sportiva - varchar(20) / not null
+ruolo - varchar(da 2 a 10) / not null
+proprietà/squadra appartenenza - varchar(40) / null
+valore cartellino??
+
+- per statistiche attuali/storiche se necessario -
+campionato attuale - varchar (10) / null
+stagione (e campionato?) - varchar(da 9 a 25) / null
+minuti giocati (stagione) - float(3,2) / null
+punti massimi (stagione) - tinyint / null
+falli (stagione) - tinyint / null
+rimbalzi (stagione) - tinyint / null
+tiri liberi (stagione) - tinyint / null
+tiri da 2 (stagione) - tinyint / null
+tiri da 3 (stagione) - tinyint / null
+percentuale succ liberi (stagione) - float(2,2) / null
+percentuale succ tiri da 2 (stagione) - float / null
+percentuale succ tiri da 3 (stagione) - float / null
+
+
+
+
+nome tabella auto usate
+colonne
+id - primary key / not null / auto increment / unique
+Num.telaio/VIN - varchar(17) / not null / unique
+marca - varchar(10) / not null
+modello - varchar(10) / not null
+cilindrata - small int o meglio float(1,1) / not null
+alimentazione - varchar(10) / not null
+seconda alimentazione - varchar(10) / null
+allestimento/versione - varchar(10) / not null
+anno costruzione YYYY / null
+anno immatricolazione - YYYY/ not null
+km percorsi - medium int / not null
+prezzo - float(7,2) / not null
